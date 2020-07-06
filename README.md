@@ -11,11 +11,14 @@ But the real question is how does face recognition works? It is quite simple and
 
 Now the next question is how to code face recognition with OpenCV, after all this is the only reason why you are reading this article, right? OK then. You might say that our mind can do these things easily but to actually code them into a computer is difficult? Don't worry, it is not. Thanks to OpenCV, coding face recognition is as easier as it feels. The coding steps for face recognition are same as we discussed it in real life example above.
 
-Training Data Gathering: Gather face data (face images in this case) of the persons you want to recognize.
+#### Training Data Gathering: 
+  Gather face data (face images in this case) of the persons you want to recognize.
 
-Training of Recognizer: Feed that face data (and respective names of each face) to the face recognizer so that it can learn.
+#### Training of Recognizer:
+  Feed that face data (and respective names of each face) to the face recognizer so that it can learn.
 
-Recognition: Feed new faces of the persons and see if the face recognizer you just trained recognizes them.
+#### Recognition: 
+  Feed new faces of the persons and see if the face recognizer you just trained recognizes them.
 
 OpenCV comes equipped with built in face recognizer, all you have to do is feed it the face data. It's that simple and this how it will look once we are done coding it.
 
